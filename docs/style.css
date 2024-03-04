@@ -15,7 +15,10 @@ body {
     margin: 0;
 }
 
-p, h1, h2, h3 {
+p,
+h1,
+h2,
+h3 {
     margin: 0;
 }
 
@@ -77,7 +80,7 @@ a {
 .main-info__contact-info p {
     display: inline;
     letter-spacing: 1px;
-    font-size: .85rem;
+    font-size: 1.1rem;
     color: rgb(65, 65, 65);
 }
 
@@ -101,7 +104,8 @@ a {
     font-size: 1.1rem;
 }
 
-.more-info__title::after, .more-info__title::before {
+.more-info__title::after,
+.more-info__title::before {
     content: '';
     position: absolute;
     height: 2px;
@@ -120,13 +124,18 @@ a {
     margin-left: -11px;
 }
 
-.more-info__title, .more-info__link, .more-info__text {
+.more-info__title,
+.more-info__link,
+.more-info__text {
     margin-bottom: 10px;
 }
 
-.more-info__title, .more-info__link, .more-info__text {
+.more-info__title,
+.more-info__link,
+.more-info__text {
     display: block;
     letter-spacing: 1px;
+    font-size: 1.1rem;
 }
 
 .main {
@@ -134,13 +143,19 @@ a {
     padding-right: 100px;
 }
 
-.section__icon, .section__title {
+.section__icon,
+.section__title {
     display: inline;
 }
 
 .section__title {
     text-transform: uppercase;
     letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+
+.section__description {
+    font-size: 1.1rem;
 }
 
 .section__items {
@@ -160,13 +175,18 @@ a {
 
 .section-item__title {
     font-weight: 500;
-    font-size: .9rem;
+    font-size: 1.1rem;
     margin-bottom: 6px;
 }
 
 .section-item__details {
     color: #7d8184;
     margin-bottom: 20px;
+    font-size: 0.9rem;
+}
+
+.section-item__description {
+    font-size: 1rem;
 }
 
 .section-item:not(:first-child)::before {
